@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Nepal - Towards a Cleaner, Greener Nepal!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🍃 Clean Nepal</div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">🏠 Home</a></li>
+                <li><a href="#pollution">🏭 Pollution</a></li>
+                <li><a href="#renewable-energy">☀️ Renewable Energy</a></li>
+                <li><a href="#get-involved">🤝 Get Involved</a></li>
+                <li><a href="#success-stories">🏆 Success Stories</a></li>
+                <li><a href="#resources">📚 Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1 class="fade-in">Towards a Cleaner, Greener Nepal! 🌿</h1>
+            <p class="fade-in">Explore how we can protect our environment and embrace renewable energy for a sustainable future in Nepal.</p>
+            <div class="cta-buttons fade-in">
+                <a href="#pollution" class="cta-button">Learn About Pollution</a>
+                <a href="#renewable-energy" class="cta-button">Discover Renewable Energy</a>
+                <a href="#get-involved" class="cta-button">Get Involved</a>
+                <a href="#success-stories" class="cta-button">Success Stories</a>
+            </div>
+        </section>
+
+        <section id="pollution" class="section">
+            <h2 class="section-title">The Pollution Crisis: A Closer Look at Nepal 🔍</h2>
+            <div class="pollution-types">
+                <div class="pollution-type">
+                    <img src="https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/20221108121148/636a42439c7e80680e04a6c3jpeg.jpg" alt="Air Pollution" class="icon">
+                    <h3>Air Pollution 💨</h3>
+                    <p>Air pollution in Nepal is one of the leading causes of health issues, especially in urban areas like Kathmandu. The pollution level here often exceeds WHO's safety standards.</p>
+                </div>
+                <div class="pollution-type">
+                    <img src="https://images.pexels.com/photos/2409022/pexels-photo-2409022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Water Pollution" class="icon">
+                    <h3>Water Pollution 💧</h3>
+                    <p>Many rivers face contamination from industrial and domestic waste, affecting both human health and aquatic ecosystems.</p>
+                </div>
+                <div class="pollution-type">
+                    <img src="https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/20221110141144/636d00e79c7e80680e0a3600jpeg.jpg" alt="Land Pollution" class="icon">
+                    <h3>Land Pollution 🏞️</h3>
+                    <p>Improper waste management leads to soil degradation and affects agricultural productivity.</p>
+                </div>
+            </div>
+            <div class="pollution-stats">
+                <h3>Pollution Statistics 📊</h3>
+                <div class="stat">
+                    <span class="stat-label">Air Quality Index (Kathmandu):</span>
+                    <span class="stat-value" id="air-quality-stat">Loading...</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Plastic Waste (tons/year):</span>
+                    <span class="stat-value" id="plastic-waste-stat">Loading...</span>
+                </div>
+            </div>
+            <div class="quiz-container">
+                <h3>Test Your Knowledge 🧠</h3>
+                <div id="quiz">
+                    <h4 id="question"></h4>
+                    <div id="choices"></div>
+                    <button id="submit">Submit Answer</button>
+                    <div id="result"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="renewable-energy" class="section">
+            <h2 class="section-title">Powering Nepal Sustainably with Renewable Energy 🔋</h2>
+            <div class="energy-types">
+                <div class="energy-type">
+                    <img src="https://images.pexels.com/photos/1259924/pexels-photo-1259924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hydropower" class="icon">
+                    <h3>Hydropower 💧</h3>
+                    <p>With over 6,000 rivers, Nepal has huge hydropower potential, providing clean electricity across the country and even exporting to neighboring countries!</p>
+                    <a href="hydropower.html" class="learn-more">Learn More</a>
+                </div>
+                <div class="energy-type">
+                    <img src="https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/2023020814028/63e39f2d9c7e80680e0d6fdfjpeg.jpg" alt="Solar Energy" class="icon">
+                    <h3>Solar Energy ☀️</h3>
+                    <p>In rural areas, solar panels are lighting up lives and schools, offering a sustainable option for communities off the main grid.</p>
+                    <a href="solar.html" class="learn-more">Learn More</a>
+                </div>
+                <div class="energy-type">
+                    <img src="https://i.ytimg.com/vi/ZLHU3wYbncY/maxresdefault.jpg" alt="Wind Energy" class="icon">
+                    <h3>Wind Energy 🌬️</h3>
+                    <p>Exploring wind power in mountainous regions to diversify Nepal's renewable energy portfolio.</p>
+                    <a href="wind.html" class="learn-more">Learn More</a>
+                </div>
+                <div class="energy-type">
+                    <img src="https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/05_Climate_protection_projects/0_klimaschutzprojekte/nepal-7119/klimaschutzprojekt-nepal-7119-8.jpg" alt="Biogas" class="icon">
+                    <h3>Biogas 🍃</h3>
+                    <p>Utilizing organic waste to produce clean cooking fuel and reduce deforestation.</p>
+                    <a href="biogas.html" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div id="energy-map" class="map-container">
+                <h3>Renewable Energy Projects in Nepal 🗺️</h3>
+                <!-- Map will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="get-involved" class="section">
+            <h2 class="section-title">Be the Change: Simple Actions to Make Nepal Cleaner 🌟</h2>
+            <div class="actions">
+                <div class="action">
+                    <img src="https://images.pexels.com/photos/802221/pexels-photo-802221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Reduce Plastic" class="icon">
+                    <h3>Reduce Plastic 🚫🥤</h3>
+                    <p>Say no to plastic bags! Bring your own eco-friendly bag when shopping.</p>
+                </div>
+                <div class="action">
+                    <img src="https://images.pexels.com/photos/1850629/pexels-photo-1850629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cycle or Walk" class="icon">
+                    <h3>Cycle or Walk 🚲🚶</h3>
+                    <p>Walking or biking not only reduces air pollution but is great for health, too!</p>
+                </div>
+            </div>
+            <div id="volunteer-section">
+                <h3>Volunteer Opportunities 🤝</h3>
+                <!-- Volunteer opportunities will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="success-stories" class="section">
+            <h2 class="section-title">Heroes of Nepal's Environment: Success Stories 🦸</h2>
+            <div class="story">
+                <img src="https://images.pexels.com/photos/9799706/pexels-photo-9799706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Eco Himal Project" class="story-image">
+                <h3>Eco Himal 🏔️</h3>
+                <p>A grassroots initiative that has brought clean water and solar energy to rural communities.</p>
+            </div>
+            <div id="story-carousel" class="carousel">
+                <!-- Before and after images will be inserted here by JavaScript -->
+            </div>
+            <blockquote>"When we take care of nature, nature takes care of us." - Local Environmentalist</blockquote>
+        </section>
+
+        <section id="resources" class="section">
+            <h2 class="section-title">Resources and Learning Center 📚</h2>
+            <div class="resources-grid">
+                <div class="resource">
+                    <h3>Student Guides 🎓</h3>
+                    <p>Download our easy-to-understand guides on pollution control and renewable energy.</p>
+                    <a href="https://www.unep.org/resources/toolkits-manuals-and-guides/solid-waste-management" class="download-link" target="_blank">Download Guide</a>
+                </div>
+                <div class="resource">
+                    <h3>Educational Videos 🎥</h3>
+                    <p>Watch short, informative videos about Nepal's environmental challenges and solutions.</p>
+                    <a href="https://www.youtube.com/watch?v=8q7_aV8eLUE" class="video-link" target="_blank">Watch Videos</a>
+                </div>
+                <div class="resource">
+                    <h3>Government Initiatives 🏛️</h3>
+                    <p>Learn about ongoing initiatives by the Nepalese government to promote sustainability.</p>
+                    <a href="https://www.mofe.gov.np/downloadfile/NCCP_1544006321.pdf" class="learn-more" target="_blank">Explore Initiatives</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Clean Nepal. All rights reserved. 🌿</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
